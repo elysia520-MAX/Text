@@ -1,0 +1,59 @@
+# Simple low-poly Bongo Cat model (OBJ)
+# Created for import into Blender/Unity/Unreal as a starting placeholder model.
+# Parts: Head, Body, Drum. Materials defined in bongo_cat.mtl
+mtllib bongo_cat.mtl
+o BongoCat
+
+g Head
+usemtl HeadMat
+v -0.4 1.2 -0.4
+v 0.4 1.2 -0.4
+v 0.4 2.0 -0.4
+v -0.4 2.0 -0.4
+v -0.4 1.2 0.4
+v 0.4 1.2 0.4
+v 0.4 2.0 0.4
+v -0.4 2.0 0.4
+
+f 1 2 3 4
+f 5 8 7 6
+f 1 5 6 2
+f 2 6 7 3
+f 3 7 8 4
+f 5 1 4 8
+
+g Body
+usemtl BodyMat
+v -0.6 -0.2 -0.4
+v 0.6 -0.2 -0.4
+v 0.6 1.0 -0.4
+v -0.6 1.0 -0.4
+v -0.6 -0.2 0.4
+v 0.6 -0.2 0.4
+v 0.6 1.0 0.4
+v -0.6 1.0 0.4
+
+f 9 10 11 12
+f 13 16 15 14
+f 9 13 14 10
+f 10 14 15 11
+f 11 15 16 12
+f 13 9 12 16
+
+g Drum
+usemtl DrumMat
+v -0.35 0.1 0.9
+v 0.35 0.1 0.9
+v 0.35 0.9 0.9
+v -0.35 0.9 0.9
+v -0.35 0.1 1.3
+v 0.35 0.1 1.3
+v 0.35 0.9 1.3
+v -0.35 0.9 1.3
+
+f 17 18 19 20
+f 21 24 23 22
+f 17 21 22 18
+f 18 22 23 19
+f 19 23 24 20
+f 21 17 20 24
